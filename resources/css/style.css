@@ -91,7 +91,19 @@ h3
     width: 70%;
     margin-left: 15%;
 }
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
 
+/* ---------- ICONS ---------------*/
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+
+}
 
 
 /* ---------- BUTTONS ---------------*/
@@ -144,7 +156,7 @@ h3
 /* HEADER */  
 /* --------------------------------------------------------------------------*/
 
-header{
+header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -191,4 +203,32 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* --------------------------------------------------------------------------*/
+/* MEALS */  
+/* --------------------------------------------------------------------------*/
+
+.meals-showcase{
+
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo
+{
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img
+{
+    width: 100%;
+    height: auto;
 }
